@@ -1,56 +1,36 @@
-# C++ objects and libs
-*.slo
-*.lo
-*.o
-*.a
-*.la
-*.lai
-*.so
-*.so.*
-*.dll
-*.dylib
-
-# Qt-es
-object_script.*.Release
-object_script.*.Debug
-*_plugin_import.cpp
-/.qmake.cache
-/.qmake.stash
+# Qt / CMake 构建生成文件
+build/
+build-*/
+cmake-build-*/
 *.pro.user
 *.pro.user.*
-*.qbs.user
-*.qbs.user.*
-*.moc
-moc_*.cpp
-moc_*.h
-qrc_*.cpp
-ui_*.h
-*.qmlc
-*.jsc
-Makefile*
-*build-*
-build/
-*.qm
-*.prl
-*.qmlls.ini
+*.user
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+Makefile
+*.a
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.exe
+*.app/
+*.out
 
-# Qt unit tests
-target_wrapper.*
+# Qt Creator 配置文件
+.qmake.stash
+.qtcreator/
+.user
 
-# QtCreator
-*.autosave
+# 系统垃圾文件
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
 
-# QtCreator Qml
-*.qmlproject.user
-*.qmlproject.user.*
-
-# QtCreator CMake
-CMakeLists.txt.user*
-
-# QtCreator 4.8< compilation database
-compile_commands.json
-
-# QtCreator local machine specific files for imported projects
-*creator.user*
-
-*_qmlcache.qrc
+# iCloud 临时文件
+.icloud
